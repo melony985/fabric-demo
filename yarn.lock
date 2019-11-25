@@ -886,10 +886,10 @@ camelcase@^5.0.0:
   resolved "https://registry.npm.taobao.org/camelcase/download/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=
 
-canvas@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.npm.taobao.org/canvas/download/canvas-2.6.1.tgz#0d087dd4d60f5a5a9efa202757270abea8bef89e"
-  integrity sha1-DQh91NYPWlqe+iAnVycKvqi++J4=
+canvas@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/canvas/download/canvas-2.6.0.tgz#7a8f87b6148845d97e6ee30947fba1508bed4941"
+  integrity sha1-eo+HthSIRdl+buMJR/uhUIvtSUE=
   dependencies:
     nan "^2.14.0"
     node-pre-gyp "^0.11.0"
@@ -1989,18 +1989,13 @@ extsprintf@^1.2.0:
   resolved "https://registry.npm.taobao.org/extsprintf/download/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
-fabric@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.npm.taobao.org/fabric/download/fabric-3.5.1.tgz#0fa8783d83c2bec011901b95c930db9a51806fd7"
-  integrity sha1-D6h4PYPCvsARkBuVyTDbmlGAb9c=
+fabric@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.npm.taobao.org/fabric/download/fabric-3.5.0.tgz#16762211dfdadc1b797a97bfcd918124a4c96b20"
+  integrity sha1-FnYiEd/a3Bt5epe/zZGBJKTJayA=
   optionalDependencies:
-    canvas "^2.6.1"
+    canvas "^2.6.0"
     jsdom "^15.1.0"
-
-fabricjs@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/fabricjs/download/fabricjs-1.0.0.tgz#1b2ba066716d683fae80d9a8aebace1a4fedec07"
-  integrity sha1-GyugZnFtaD+ugNmorrrOGk/t7Ac=
 
 fast-deep-equal@^2.0.1:
   version "2.0.1"
