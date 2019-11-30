@@ -33,84 +33,8 @@ export class LayoutBaseView extends React.Component<RouteComponentProps<any> & W
                         '#reactApp': {
                             backgroundColor: '#f0f2f5 !important',
                         },
-                        '.admin': {
-                            float: 'right',
-                            position: 'relative',
-                            minWidth: '120px',
-                            cursor: 'pointer',
-                        },
-                        '.admin-user': {
-                            paddingTop: '6px',
-                            backgroundColor: '#0099ff',
-                            borderRadius: '50%',
-                            fontSize: '16px',
-                            margin: '0 10px 0 0',
-                            display: 'inline-block',
-                            width: '30px',
-                            height: '30px',
-                            position: 'relative',
-                            verticalAlign: 'middle',
-                        },
-                        '.admin:hover': {
-                            backgroundColor: '#fff',
-                            color: '#000',
-                        },
-                        '.admin:hover .admin-user': {
-                            color: '#fff',
-                        },
-                        '.admin > a': {
-                            textDecoration: 'none',
-                            color: '#fff',
-                            lineHeight: '50px',
-                            display: 'inline-block',
-                            padding: '0 25px',
-                        },
-                        '.admin:hover > a': {
-                            backgroundColor: '#fff',
-                            color: '#000',
-                        },
-                        '.user-center': {
-                            position: 'absolute',
-                            right: 0,
-                            zIndex: 2,
-                            background: '#fff',
-                            width: '100%',
-                            display: 'none',
-                        },
-                        '.user-center a': {
-                            borderLeft: '1px #adadad solid',
-                            borderRight: '1px #adadad solid',
-                            borderBottom: '1px #adadad solid',
-                            boxShadow: '0px 0px 5px #7d7d7d',
-                            display: 'block',
-                            width: '100%',
-                            height: '50px',
-                            textAlign: 'center',
-                            lineHeight: '50px',
-                            color: '#000',
-                            transition: 'none',
-                            textDecoration: 'none',
-                        },
-                        '.admin:hover .user-center': {
-                            display: 'block',
-                        },
-                        '.user-center a:hover': {
-                            color: '#0099FF',
-                            background: 'rgba(228, 228, 228, 0.5)',
-                        },
                     }} />
                 <Header style={{ position: 'fixed', zIndex: 1, width: '100%', height: 'auto' }}>
-                    <div className='admin'>
-                        <a>
-                            <Icon type='user' className='admin-user' theme='outlined' />
-                            <span>
-                                信息
-                            </span>
-                        </a>
-                        < div className='user-center' >
-                            <Link to='/statistics/user/logout'>退出</Link>
-                        </div>
-                    </div>
                     <Menu
                         theme='dark'
                         mode='horizontal'

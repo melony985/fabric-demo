@@ -10,8 +10,8 @@ export const Nav: NavProps[] = [
         url: 'statistics',
         children: [
             {
-                title: '贷超',
-                url: 'dc',
+                title: '服务器集群',
+                url: 'server',
             },
         ],
     },

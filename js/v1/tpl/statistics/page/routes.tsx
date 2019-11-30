@@ -4,15 +4,15 @@ import {
     Redirect,
     Route,
 } from 'react-router-dom';
-import { List } from './statistics/dc/list';
+import { Server } from './statistics/server/index';
 
 export const routes = (
     <div>
         <Route
             exact
-            path='/statistics'
-            render={() => <Redirect to='/statistics/dc' />}
+            path='/'
+            render={() => <Redirect to='/statistics/server' />}
         />
-        <Route exact path='/statistics/dc' component={List} />
+        <Route exact path='/statistics/server' component={Server} />
     </div>
 );
